@@ -4,11 +4,7 @@ import com.xiaoqiang.service.UserService;
 import org.apache.dubbo.config.ApplicationConfig;
 import org.apache.dubbo.config.ReferenceConfig;
 import org.apache.dubbo.config.RegistryConfig;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 /**
  * 代码方式写DubboClient

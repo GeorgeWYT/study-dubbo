@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a246062-8199-4dee-8a89-0b2089f1d3b1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.en.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="9a246062-8199-4dee-8a89-0b2089f1d3b1" name="Default" comment="dubbo" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spi/target/" />
@@ -39,8 +34,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            <state relative-caret-position="361">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -418,7 +413,7 @@
       <workItem from="1588932137444" duration="2615000" />
       <workItem from="1588982158100" duration="567000" />
       <workItem from="1588983099009" duration="2177000" />
-      <workItem from="1588989838512" duration="5377000" />
+      <workItem from="1588989838512" duration="5746000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo">
       <created>1588982528010</created>
@@ -480,10 +475,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10736000" />
+    <option name="totallyTimeSpent" value="11105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32917705" />
@@ -505,9 +501,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.28678304" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.32917705" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6022444" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6022444" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
       <window_info anchor="bottom" id="JProfiler" order="7" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -952,8 +948,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
