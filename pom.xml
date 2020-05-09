@@ -6,6 +6,7 @@
     <modules>
         <module>member-client</module>
         <module>spi</module>
+        <module>example</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

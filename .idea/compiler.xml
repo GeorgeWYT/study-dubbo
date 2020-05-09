@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="example" />
         <module name="member-client" />
         <module name="spi" />
         <module name="springboot-dubbo-client" />
@@ -13,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="example" target="1.8" />
       <module name="member-client" target="1.8" />
       <module name="spi" target="1.8" />
       <module name="springboot-dubbo-client" target="1.8" />
