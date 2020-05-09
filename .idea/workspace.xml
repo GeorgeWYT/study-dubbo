@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a246062-8199-4dee-8a89-0b2089f1d3b1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a246062-8199-4dee-8a89-0b2089f1d3b1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spi/target/" />
@@ -23,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
@@ -31,6 +29,15 @@
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
@@ -61,18 +68,6 @@
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file leaf-file-name="SpringServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/example/src/main/java/com/xiaoqiang/SpringServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file leaf-file-name="DubboServer.java" pinned="false" current-in-tab="false">
@@ -170,6 +165,7 @@
         <option value="$PROJECT_DIR$/springboot-dubbo-client/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-dubbo-server/pom.xml" />
         <option value="$PROJECT_DIR$/example/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -416,7 +412,7 @@
       <workItem from="1588932137444" duration="2615000" />
       <workItem from="1588982158100" duration="567000" />
       <workItem from="1588983099009" duration="2177000" />
-      <workItem from="1588989838512" duration="4214000" />
+      <workItem from="1588989838512" duration="5060000" />
     </task>
     <task id="LOCAL-00001" summary="dubbo">
       <created>1588982528010</created>
@@ -467,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1588996211013</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dubbo">
+      <created>1588996559641</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588996559641</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9573000" />
+    <option name="totallyTimeSpent" value="10419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -493,12 +496,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23727088" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.49501246" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.28678304" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.60349125" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" weight="0.32917705" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6022444" />
       <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2360515" />
       <window_info anchor="bottom" id="JProfiler" order="7" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -563,13 +566,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-dubbo-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-dubbo-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1045">
@@ -955,6 +951,13 @@
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
