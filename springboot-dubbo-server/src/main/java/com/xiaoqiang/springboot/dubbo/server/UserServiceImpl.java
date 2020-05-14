@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 
 import java.lang.management.ManagementFactory;
+import java.util.List;
 
 /**
  * @author George on 2020-05-08
@@ -23,5 +24,10 @@ public class UserServiceImpl implements UserService {
         user.setName("xiaoqiang" + ManagementFactory.getRuntimeMXBean().getName());
         user.setSex("male");
         return user;
+    }
+
+    @Override
+    public List<User> findUser(String city, String sex) {
+        return null;
     }
 }

@@ -12,4 +12,5 @@
         <dubbo:method name="getUser" timeout="2000"/>
     </dubbo:service>
     <bean id="userService" class="com.xiaoqiang.UserServiceImpl"/>
+    <dubbo:provider filter="accesslog" accesslog="logs/dubbo.log"/>
 </beans>

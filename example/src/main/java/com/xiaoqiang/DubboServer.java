@@ -1,11 +1,11 @@
 package com.xiaoqiang;
 
-import org.apache.dubbo.config.ApplicationConfig;
-import org.apache.dubbo.config.ProtocolConfig;
-import org.apache.dubbo.config.RegistryConfig;
-import org.apache.dubbo.config.ServiceConfig;
+import org.apache.dubbo.config.*;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 代码方式写DubboServer
@@ -33,9 +33,23 @@ public class DubboServer {
         serviceConfig.setRegistry(registryConfig);
         serviceConfig.setProtocol(protocolConfig);
         serviceConfig.setApplication(applicationConfig);
-
+        setLoadBalance(serviceConfig);
         serviceConfig.export();
         System.out.println("服务已暴露");
         System.in.read();
+    }
+
+    public  static void setLoadBalance(ServiceConfig serviceConfig){
+//        serviceConfig.setLoadbalance("random");
+//        serviceConfig.setWeight(200);
+
+        serviceConfig.setLoadbalance("consistenthash");
+        MethodConfig methodConfig =new MethodConfig();
+        methodConfig.setName("findUser");
+        Map<String, String> map = new HashMap<>();
+        map.put("hash.arguments", "0,1");
+        map.put("hash.nodes", "320");
+        methodConfig.setParameters(map);
+        serviceConfig.setMethods(Arrays.asList(methodConfig));
     }
 }

@@ -8,5 +8,5 @@
     <!--<dubbo:registry address="multicast://224.1.1.1:3333" />-->
     <dubbo:registry address="zookeeper://127.0.0.1:2181" />
     <dubbo:consumer timeout="5000"/>
-    <dubbo:reference id="userService" interface="com.xiaoqiang.service.UserService" async="false"/>
+    <dubbo:reference id="userService" interface="com.xiaoqiang.service.UserService" async="true"/>
 </beans>
